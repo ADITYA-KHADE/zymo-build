@@ -15,7 +15,7 @@ const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 p-3 bg-white text-2xl h-20">
+    <header className="sticky top-0 z-50 p-3 bg-white text-2xl h-20 font-poppins">
       <nav
         className="container mx-auto px-6 lg:px-8 flex text-left justify-between h-16"
         aria-label="Global"
