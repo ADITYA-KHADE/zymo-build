@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 import './App.css';
-import { app, analytics } from './firebaseConfig'; // Import Firebase configuration
 import Navbar from "./Components/Navbar/Navbar"
 import Banner from "./Components/Banner/Banner"
 import Faq from "./Components/FAQ/Faq"
@@ -13,19 +12,15 @@ import Featured from "./Components/Featured/Featured"
 import Reviews from "./Components/Reviews/Reviews"
 import Footer from "./Components/Footer/Footer"
 import CarRentalComponent from './Components/Footer/CarRentalComponent';
+import Banner1 from "./Components/Banner/Banner1"
 
 function App() {
-  useEffect(() => {
-    // Firebase analytics initialization
-    if (analytics) {
-      console.log('Firebase Analytics Initialized');
-    }
-  }, []);
 
   return (
     <>
     <Navbar/>
-    <Banner/>
+    <Banner1/>
+    {/* <Banner/> */}
     <Zymo/>
     <Benefits/>
     <Refer/>

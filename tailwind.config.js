@@ -9,6 +9,9 @@ export default {
       backgroundImage: {
         'custom-gradient': 'linear-gradient(90deg, #9b08fe, #673ab7, #9c27b0)',
       },
+      fontFamily: {
+        poppins: ['Poppins', 'sans-serif'],
+      },
     },
   },
   plugins: [],
