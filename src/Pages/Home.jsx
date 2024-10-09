@@ -13,6 +13,7 @@ import CarRentalComponent from "../Components/Footer/CarRentalComponent";
 import SelectLocation from "../Components/SelectLocation/Select";
 
 import { useLocationContext } from "../Context/Location";
+import CarRentalSearch from "../Components/CarRentalSearch/CarRentalSearch";
 
 const Home = () => {
   const { location , setLocation} = useLocationContext();
@@ -34,6 +35,7 @@ const Home = () => {
           change
         </button>
         <Navbar />
+        <CarRentalSearch />
         <Banner1 />
         <Zymo />
         <Benefits />
